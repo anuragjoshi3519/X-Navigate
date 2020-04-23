@@ -12,36 +12,36 @@
         "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/joshi_anurag/development/x_navigate/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
         "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/layout_notification_action_tombstone.xml.flat",
-        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_action_tombstone.xml"
+        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/joshi_anurag/development/x_navigate/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/layout_notification_action_tombstone.xml.flat",
+        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
         "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/drawable-hdpi-v4/googleg_standard_color_18.png"
-    },
-    {
         "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/color_common_google_signin_btn_tint.xml.flat",
         "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
