@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/res/merged/release/layout/notification_action.xml",
+        "merged": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/res/merged/release/layout/notification_action.xml",
         "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_action.xml"
     },
     {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/res/merged/release/layout/notification_template_part_time.xml",
-        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_template_part_time.xml"
+        "merged": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
-        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
-        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "merged": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/res/merged/release/layout/custom_dialog.xml",
         "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/custom_dialog.xml"
     },
     {
-        "merged": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
-        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_template_icon_group.xml"
+        "merged": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/layout/notification_template_part_chronometer.xml"
     }
 ]

@@ -1,8 +1,8 @@
-# Referenced at /home/joshi_anurag/development/x_navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:21
+# Referenced at /home/joshi_anurag/Documents/X-Navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:21
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /home/joshi_anurag/development/x_navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:26
+# Referenced at /home/joshi_anurag/Documents/X-Navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:26
 -keep class com.example.x_navigate.MainActivity { <init>(); }
-# Referenced at /home/joshi_anurag/development/x_navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:47
+# Referenced at /home/joshi_anurag/Documents/X-Navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:47
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
-# Referenced at /home/joshi_anurag/development/x_navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:21
+# Referenced at /home/joshi_anurag/Documents/X-Navigate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:21
 -keep class io.flutter.app.FlutterApplication { <init>(); }

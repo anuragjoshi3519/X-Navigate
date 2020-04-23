@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/joshi_anurag/development/x_navigate/build/google_api_availability/intermediates/res/merged/release/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/google_api_availability/intermediates/res/merged/release/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/res/values-en-rGB/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/home/joshi_anurag/development/x_navigate/build/google_api_availability/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/google_api_availability/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/res/values-en-rGB/values.xml",

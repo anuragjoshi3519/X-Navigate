@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml",
+            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/values-uk/values.xml",
