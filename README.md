@@ -1,6 +1,6 @@
 # x_navigate
 
-A new Flutter project.
+Get apk file from : _/build/app/outputs/apk/release/_
 
 ## Getting Started
 
