@@ -296,6 +296,7 @@ Referenced Strings:
   URL
   UTF8
   UntrackedBindService
+  UseSparseArrays
   V:
   VISIBLE_PASSWORD
   ViewCompat
@@ -316,9 +317,11 @@ Referenced Strings:
   alwaysUse24HourFormat
   android
   android.car.EXTENSIONS
+  android.hardware.telephony
   android.hardware.type.embedded
   android.hardware.type.iot
   android.hardware.type.watch
+  android.intent.action.CALL
   android.intent.action.RUN
   android.intent.action.VIEW
   android.intent.category.DEFAULT
@@ -327,7 +330,30 @@ Referenced Strings:
   android.permission.ACCESS_BACKGROUND_...
   android.permission.ACCESS_COARSE_LOCA...
   android.permission.ACCESS_FINE_LOCATION
+  android.permission.BODY_SENSORS
+  android.permission.CALL_PHONE
+  android.permission.CAMERA
+  android.permission.GET_ACCOUNTS
+  android.permission.PROCESS_OUTGOING_C...
+  android.permission.READ_CALENDAR
+  android.permission.READ_CALL_LOG
+  android.permission.READ_CONTACTS
+  android.permission.READ_EXTERNAL_STORAGE
+  android.permission.READ_PHONE_STATE
+  android.permission.READ_SMS
+  android.permission.RECEIVE_MMS
+  android.permission.RECEIVE_SMS
+  android.permission.RECEIVE_WAP_PUSH
+  android.permission.RECORD_AUDIO
+  android.permission.REQUEST_IGNORE_BAT...
+  android.permission.SEND_SMS
+  android.permission.USE_SIP
+  android.permission.WRITE_CALENDAR
+  android.permission.WRITE_CALL_LOG
+  android.permission.WRITE_CONTACTS
+  android.permission.WRITE_EXTERNAL_STO...
   android.settings.APPLICATION_DETAILS_...
+  android.settings.REQUEST_IGNORE_BATTE...
   android.support.action.semanticAction
   android.support.action.showsUserInter...
   android.support.actionExtras
@@ -390,6 +416,7 @@ Referenced Strings:
   cn.google
   codePoint
   com.android.vending
+  com.android.voicemail.permission.ADD_...
   com.baseflow.flutter/location_permiss...
   com.baseflow.flutter/location_permiss...
   com.baseflow.geolocator
@@ -397,6 +424,8 @@ Referenced Strings:
   com.baseflow.googleapiavailability
   com.baseflow.location_permissions
   com.baseflow.location_permissions.Loc...
+  com.baseflow.permissionhandler
+  com.baseflow.permissionhandler.Permis...
   com.google
   com.google.android.clockwork.home.UPD...
   com.google.android.gms
@@ -481,6 +510,7 @@ Referenced Strings:
   flutter.baseflow.com/geolocator/events
   flutter.baseflow.com/geolocator/methods
   flutter.baseflow.com/google_api_avail...
+  flutter.baseflow.com/permissions/methods
   flutter/accessibility
   flutter/isolate
   flutter/keyevent
@@ -498,14 +528,20 @@ Referenced Strings:
   fragment
   gcore_
   get
+  getApplicationDocumentsDirectory
+  getApplicationSupportDirectory
   getChildId
   getCurrentPosition
+  getExternalCacheDirectories
+  getExternalStorageDirectories
   getFeatureId
   getLastKnownPosition
   getParentNodeId
   getResId
   getResPackage
   getSourceNodeId
+  getStorageDirectory
+  getTemporaryDirectory
   getType
   givenName
   google
@@ -583,14 +619,18 @@ Referenced Strings:
   pcampaignid
   pendingIntent
   pending_intent
+  permissions_handler
+  phone
   photoUrl
   placemarkFromAddress
   placemarkFromCoordinates
   plainCodePoint
   platformBrightness
+  plugins.flutter.io/path_provider
   popRoute
   position
   postalCode
+  power
   primaryColor
   productId
   profile
@@ -603,6 +643,7 @@ Referenced Strings:
   removeViewImmediate
   repeatCount
   requestPermission
+  requestPermissions
   resize
   resolution
   restricted_profile
@@ -643,6 +684,7 @@ Referenced Strings:
   systemNavigationBarDividerColor
   systemNavigationBarIconBrightness
   tap
+  tel:123123
   text
   text/plain
   textCapitalization

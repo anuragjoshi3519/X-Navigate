@@ -1,14 +1,14 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.locate_me"
-4    android:versionCode="4001"
+3    package="com.example.x_navigate"
+4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml
+8-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml
+9-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml
 10    <!--
 11         io.flutter.app.FlutterApplication is an android.app.Application that
 12         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -17,70 +17,76 @@
 15         FlutterApplication and put your custom class here.
 16    -->
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:8:5-79
-17-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:8:22-76
-18
-19    <application
-19-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:9:5-30:19
-20        android:name="io.flutter.app.FlutterApplication"
-20-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:10:9-57
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.2.0] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:18-86
-22        android:icon="@mipmap/ic_launcher"
-22-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:12:9-43
-23        android:label="X-Navigate" >
-23-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:11:9-35
-24        <activity
-24-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:13:9-24:20
-25            android:name="com.example.locate_me.MainActivity"
-25-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:14:13-41
-26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-26-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:17:13-163
-27            android:hardwareAccelerated="true"
-27-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:18:13-47
-28            android:launchMode="singleTop"
-28-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:15:13-43
-29            android:theme="@style/LaunchTheme"
-29-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:16:13-47
-30            android:windowSoftInputMode="adjustResize" >
-30-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:19:13-55
-31            <intent-filter>
-31-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:20:13-23:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:21:17-68
-32-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:21:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:22:17-76
-34-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:22:27-74
-35            </intent-filter>
-36        </activity>
-37        <!--
-38             Don't delete the meta-data below.
-39             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-40        -->
-41        <meta-data
-41-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:27:9-29:33
-42            android:name="flutterEmbedding"
-42-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:28:13-44
-43            android:value="2" />
-43-->/home/joshi_anurag/development/locate_me/android/app/src/main/AndroidManifest.xml:29:13-30
-44
-45        <activity
-45-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
-46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-46-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
-47            android:exported="false"
-47-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
-48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-48-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
-49
-50        <meta-data
-50-->[com.google.android.gms:play-services-basement:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
-51            android:name="com.google.android.gms.version"
-51-->[com.google.android.gms:play-services-basement:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
-52            android:value="@integer/google_play_services_version" />
-52-->[com.google.android.gms:play-services-basement:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
-53    </application>
-54
-55</manifest>
+17-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:8:5-79
+17-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:9:5-81
+18-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:10:5-80
+19-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:10:22-77
+20
+21    <application
+21-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:11:5-32:19
+22        android:name="io.flutter.app.FlutterApplication"
+22-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:12:9-57
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.2.0] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:14:9-43
+25        android:label="X-Navigate" >
+25-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:13:9-35
+26        <activity
+26-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:15:9-26:20
+27            android:name="com.example.x_navigate.MainActivity"
+27-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:16:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:19:13-163
+29            android:hardwareAccelerated="true"
+29-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:20:13-47
+30            android:launchMode="singleTop"
+30-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:17:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:18:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:21:13-55
+33            <intent-filter>
+33-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:22:13-25:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:23:17-68
+34-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:23:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:24:17-76
+36-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:24:27-74
+37            </intent-filter>
+38        </activity>
+39        <!--
+40             Don't delete the meta-data below.
+41             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+42        -->
+43        <meta-data
+43-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:29:9-31:33
+44            android:name="flutterEmbedding"
+44-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:30:13-44
+45            android:value="2" />
+45-->/home/joshi_anurag/development/x_navigate/android/app/src/main/AndroidManifest.xml:31:13-30
+46
+47        <activity
+47-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+48-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-base:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+51
+52        <meta-data
+52-->[com.google.android.gms:play-services-basement:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+53            android:name="com.google.android.gms.version"
+53-->[com.google.android.gms:play-services-basement:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->[com.google.android.gms:play-services-basement:17.2.1] /home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/7e27b725cd9d50937f60bf9fcf8fed3f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+55    </application>
+56
+57</manifest>

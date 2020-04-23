@@ -1,4 +1,4 @@
-com.example.locate_me
+com.example.x_navigate
 attr alpha
 attr buttonSize
 attr circleCrop
