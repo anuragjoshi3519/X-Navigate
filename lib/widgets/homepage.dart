@@ -186,7 +186,7 @@ class _HomePageState extends State<HomePage> {
             backgroundColor: Colors.blueGrey,
             child: Icon(Icons.add),
             onPressed: () =>
-                _currentPosition != null ? _getCurrentLocation(ctx) : null);
+                _currentPosition != null && _isPermissionGiven ? _getCurrentLocation(ctx) : null);
       }),
     );
   }
