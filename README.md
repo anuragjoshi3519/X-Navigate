@@ -1,4 +1,4 @@
-# x_navigate
+# X-Navigate
 
 A new Flutter project.
 
