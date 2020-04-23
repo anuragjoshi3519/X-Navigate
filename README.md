@@ -1,4 +1,4 @@
-# locate_me
+# X-Navigate
 
 A new Flutter project.
 
