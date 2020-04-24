@@ -17,33 +17,48 @@ class _HomePageState extends State<HomePage> {
   final List<LocationItem> _locationList = [];
   Position _currentPosition;
   bool _isPermissionGiven = true;
-  final _addMessage = SnackBar(
+
+  final _addMessage = const SnackBar(
       elevation: 2,
       behavior: SnackBarBehavior.fixed,
       content: Text(
         'Manually adding new location entry...',
       ),
       duration: Duration(seconds: 2));
-  final _downloadMessage = SnackBar(
+  final _downloadMessage = const SnackBar(
       behavior: SnackBarBehavior.fixed,
       content: Text(
         'Downloading CSV file...',
       ),
       duration: Duration(seconds: 3));
 
-  final _successMessage = SnackBar(
+  final _nothingDownloaded = const SnackBar(
+      behavior: SnackBarBehavior.fixed,
+      content: Text(
+        'Sorry! No data available for downloading.',
+      ),
+      duration: Duration(seconds: 3));
+
+  final _successMessage = const SnackBar(
       behavior: SnackBarBehavior.fixed,
       content: Text(
         'File downloaded to Download folder.',
       ),
-      duration: Duration(seconds: 3));    
+      duration: Duration(seconds: 3));
 
-  final _failedMessage = SnackBar(
+  final _failedMessage = const SnackBar(
       behavior: SnackBarBehavior.fixed,
       content: Text(
         'Download failed..',
       ),
       duration: Duration(seconds: 3));
+
+  final _turnOnLocation = const SnackBar(
+      behavior: SnackBarBehavior.fixed,
+      content: Text(
+        'Please turn on location.',
+      ),
+      duration: Duration(seconds: 2));
 
   void _checkLocationPermission() async {
     bool isAvailable = await Geolocator().isLocationServiceEnabled();
@@ -52,8 +67,12 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-
   void _getLocationListCSV(context) async {
+    if (_locationList.isEmpty) {
+      Scaffold.of(context).showSnackBar(_nothingDownloaded);
+      return;
+    }
+
     Scaffold.of(context).showSnackBar(_downloadMessage);
     List<List<dynamic>> rows = List<List<dynamic>>();
     List<dynamic> row = List();
@@ -70,35 +89,40 @@ class _HomePageState extends State<HomePage> {
     }
     //final String dir = (await getExternalStorageDirectory()).path;
     final String path = '/storage/emulated/0/Download';
-    final File file = File(path+'/locations.csv');
-    print(file);
+    final File file = File(path + '/locations.csv');
+    //print(file);
     String csv = const ListToCsvConverter().convert(rows);
 
     final PermissionHandler _permissionHandler = PermissionHandler();
-    var result = await _permissionHandler.requestPermissions([PermissionGroup.storage]);
+    var result =
+        await _permissionHandler.requestPermissions([PermissionGroup.storage]);
     if (result[PermissionGroup.storage] == PermissionStatus.granted) {
       file.writeAsString(csv);
       Scaffold.of(context).showSnackBar(_successMessage);
-    }else{
+    } else {
       Scaffold.of(context).showSnackBar(_failedMessage);
     }
-}
+  }
 
-  void _getLocationStream() {
-    final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
-    var locationOptions = LocationOptions(
-        accuracy: LocationAccuracy.bestForNavigation, distanceFilter: 1);
-    geolocator.getPositionStream(locationOptions).listen((Position pos) {
-      setState(() {
-        _currentPosition = pos;
-        _locationList.insert(
-            0, LocationItem(position: pos, dateTime: DateTime.now()));
+  void _getLocationStream(context) {
+    if (_isPermissionGiven) {
+      final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
+      var locationOptions = LocationOptions(
+          accuracy: LocationAccuracy.bestForNavigation, distanceFilter: 1);
+      geolocator.getPositionStream(locationOptions).listen((Position pos) {
+        setState(() {
+          _currentPosition = pos;
+          _locationList.insert(
+              0, LocationItem(position: pos, dateTime: DateTime.now()));
+        });
       });
-    });
+    } else {
+      Scaffold.of(context).showSnackBar(_turnOnLocation);
+    }
   }
 
   void _getCurrentLocation(context) {
-    if (_locationList.isNotEmpty) {
+    if (_locationList.isNotEmpty && _isPermissionGiven) {
       Scaffold.of(context).showSnackBar(_addMessage);
       final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
       geolocator
@@ -114,6 +138,9 @@ class _HomePageState extends State<HomePage> {
         print(e);
       });
     }
+    if (!_isPermissionGiven) {
+      Scaffold.of(context).showSnackBar(_turnOnLocation);
+    }
   }
 
   @override
@@ -121,13 +148,13 @@ class _HomePageState extends State<HomePage> {
     _checkLocationPermission();
     return Scaffold(
       appBar: AppBar(
-        title: Text('X-Navigate'),
+        title: const Text('X-Navigate'),
         centerTitle: true,
         actions: <Widget>[
           Builder(
             builder: (ctx) {
               return IconButton(
-                icon: Icon(Icons.file_download),
+                icon: const Icon(Icons.file_download),
                 onPressed: () => _getLocationListCSV(ctx),
               );
             },
@@ -152,24 +179,31 @@ class _HomePageState extends State<HomePage> {
                             child: Text('Please turn on location.',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    color: Colors.red[800], fontSize: 16))),
+                                    color: Theme.of(context).errorColor,
+                                    fontSize: 16))),
                       ),
                     _currentPosition == null
                         ? FittedBox(
-                            child: RaisedButton(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: new BorderRadius.circular(20.0),
-                              ),
-                              color: Theme.of(context).primaryColor,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: const Text(
-                                  "Start Location Trail",
-                                  style: TextStyle(
-                                      color: Colors.white, fontSize: 18.5),
-                                ),
-                              ),
-                              onPressed: () => _getLocationStream(),
+                            child: Builder(
+                              builder: (ctx) {
+                                return RaisedButton(
+                                  elevation: 6,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius:
+                                        new BorderRadius.circular(20.0),
+                                  ),
+                                  color: Theme.of(context).primaryColor,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: const Text(
+                                      "Start Location Trail",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 18.5),
+                                    ),
+                                  ),
+                                  onPressed: () => _getLocationStream(ctx),
+                                );
+                              },
                             ),
                           )
                         : LocationTrail(_locationList),
@@ -184,10 +218,10 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: Builder(builder: (ctx) {
         return FloatingActionButton(
             backgroundColor: Colors.blueGrey,
-            child: Icon(Icons.add),
-            onPressed: () =>
-                _currentPosition != null && _isPermissionGiven ? _getCurrentLocation(ctx) : null);
+            child: const Icon(Icons.add),
+            onPressed: () => _getCurrentLocation(ctx));
       }),
     );
   }
 }
+
