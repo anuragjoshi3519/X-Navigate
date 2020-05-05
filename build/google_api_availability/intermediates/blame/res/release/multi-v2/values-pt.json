@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/google_api_availability/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt/values-pt.xml",
+            "outputFile": "/home/joshi_anurag/development/x_navigate/build/google_api_availability/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/values-pt/values-pt.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/google_api_availability/intermediates/res/merged/release/values-pt/values-pt.xml",
+            "outputFile": "/home/joshi_anurag/development/x_navigate/build/google_api_availability/intermediates/res/merged/release/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/values-pt/values-pt.xml",

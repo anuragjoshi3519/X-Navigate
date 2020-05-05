@@ -2,6 +2,7 @@ android.content.res.Resources#getIdentifier present: true
 Web content present: false
 Referenced Strings:
   %s.%sParcelizer
+  .ModuleDescriptor
   .org.chromium.Chromium.
   0
   0x%08x
@@ -20,6 +21,7 @@ Referenced Strings:
   AccessibilityBridge
   AccessibilityChannel
   AccountAccessor
+  AmbientEnabled
   AppLifecycleState.detached
   AppLifecycleState.inactive
   AppLifecycleState.paused
@@ -38,10 +40,13 @@ Referenced Strings:
   CREATED
   CUSTOM_ACTION
   CUT
+  Camera
   Clipboard.getData
   Clipboard.setData
+  CompassEnabled
   ConnectionStatusConfig
   ConnectionTracker
+  CrashUtils
   DARK
   DATA
   DATETIME
@@ -50,6 +55,7 @@ Referenced Strings:
   DESTROYED
   DETACH
   DEVELOPER_ERROR
+  DFIIFZZ
   DID_GAIN_ACCESSIBILITY_FOCUS
   DID_LOSE_ACCESSIBILITY_FOCUS
   DISABLE_ANIMATIONS
@@ -57,12 +63,14 @@ Referenced Strings:
   DRIVE_EXTERNAL_STORAGE_REQUIRED
   DartExecutor
   DartMessenger
+  DeferredLifecycleHelper
   Destroying.
   DeviceOrientation.landscapeLeft
   DeviceOrientation.landscapeRight
   DeviceOrientation.portraitDown
   DeviceOrientation.portraitUp
   DialogRedirect
+  DynamiteModule
   EMAIL_ADDRESS
   ERROR
   ERROR_ALREADY_REQUESTING_PERMISSIONS
@@ -74,6 +82,8 @@ Referenced Strings:
   ERROR_GEOCODNG_ADDRESSNOTFOUND
   ERROR_MISSING_CONTEXT
   ERROR_UPDATING_LOCATION
+  FIFZZZ
+  FIIFZZZI
   FRAMEWORK_CLIENT
   FlutterActivity
   FlutterActivityAndFragmentDelegate
@@ -95,6 +105,7 @@ Referenced Strings:
   GoogleApiHandler
   GoogleApiManager
   GoogleCertificates
+  GoogleMapController
   GooglePlayServicesErrorDialog
   GooglePlayServicesUtil
   GoogleSignatureVerifier
@@ -145,21 +156,31 @@ Referenced Strings:
   LIGHT_IMPACT
   LONG_PRESS
   LTR
+  LatLngBoundsForCameraTarget
   LayoutInflaterCompatHC
   LifecycleChannel
   LifecycleRegistry
+  LiteMode
   LoaderManager
   Loaders:
   LocalizationChannel
   LocationClientImpl
   LocationServices.API
   MEDIUM_IMPACT
+  MODULE_ID
+  MODULE_VERSION
   MOVE_CURSOR_BACKWARD_BY_CHARACTER
   MOVE_CURSOR_BACKWARD_BY_WORD
   MOVE_CURSOR_FORWARD_BY_CHARACTER
   MOVE_CURSOR_FORWARD_BY_WORD
   MULTILINE
+  MapOptions
+  MapToolbarEnabled
+  MapType
+  MaxZoomPreference
   MetadataValueReader
+  MinZoomPreference
+  MissingPermission
   NAMES_ROUTE
   NETWORK_ERROR
   NONE
@@ -204,6 +225,7 @@ Referenced Strings:
   RTL
   RestrictedApi
   ResultT:
+  RotateGesturesEnabled
   SAFE_PARCELABLE_NULL_STRING
   SCOPES_ROUTE
   SCROLL_DOWN
@@ -229,6 +251,8 @@ Referenced Strings:
   SUCCESS
   SUCCESS_CACHE
   Samsung
+  ScrollGesturesEnabled
+  ScrollGesturesEnabledDuringRotateOrZoom
   SettingsChannel
   ShimPluginRegistry
   ShimRegistrar
@@ -236,6 +260,8 @@ Referenced Strings:
   SignIn.INTERNAL_API
   SignInClientImpl
   SignInCoordinator
+  StaticFieldLeak
+  StreetViewPanoramaOptions
   SystemChannel
   SystemChrome.restoreSystemUIOverlays
   SystemChrome.setApplicationSwitcherDe...
@@ -289,6 +315,7 @@ Referenced Strings:
   TextInputType.url
   TextInputType.visiblePassword
   Theme.Dialog.Alert
+  TiltGesturesEnabled
   UNFINISHED
   UNKNOWN
   UNSET_PRIMARY_NAV
@@ -297,12 +324,16 @@ Referenced Strings:
   UTF8
   UntrackedBindService
   UseSparseArrays
+  UseViewLifecycleInFragment
   V:
   VISIBLE_PASSWORD
   ViewCompat
   WORDS
   Z
+  ZOrderOnTop
   ZZZ
+  ZoomControlsEnabled
+  ZoomGesturesEnabled
   _
   _LifecycleAdapter
   accessibility
@@ -315,7 +346,9 @@ Referenced Strings:
   alpha
   altitude
   alwaysUse24HourFormat
+  anchor
   android
+  android.
   android.car.EXTENSIONS
   android.hardware.telephony
   android.hardware.type.embedded
@@ -396,25 +429,40 @@ Referenced Strings:
   androidx.transition.FragmentTransitio...
   anim
   announce
+  api
+  api_force_staging
   arch_disk_io_%d
   args
   autocorrect
   background_mode
   base
+  bearing
   bottom
+  buildingsEnabled
+  buttCap
   cached_engine_id
+  camera
+  cameraTargetBounds
+  cameraUpdate
   cancel
+  center
   character
   checkPermissionStatus
   checkPlayServicesAvailability
   checkServiceStatus
+  circleId
+  circleIdsToRemove
   circles
+  circlesToAdd
+  circlesToChange
   class
   clearFocus
   client_name
   clipboard
   cn.google
   codePoint
+  color
+  com.android.
   com.android.vending
   com.android.voicemail.permission.ADD_...
   com.baseflow.flutter/location_permiss...
@@ -431,17 +479,48 @@ Referenced Strings:
   com.google.android.gms
   com.google.android.gms.availability
   com.google.android.gms.chimera
+  com.google.android.gms.chimera.contai...
   com.google.android.gms.common.interna...
   com.google.android.gms.common.interna...
   com.google.android.gms.common.interna...
   com.google.android.gms.common.interna...
   com.google.android.gms.common.interna...
   com.google.android.gms.dynamic.IObjec...
+  com.google.android.gms.dynamite.IDyna...
+  com.google.android.gms.dynamite.IDyna...
+  com.google.android.gms.dynamite.descr...
+  com.google.android.gms.dynamiteloader...
   com.google.android.gms.location.IDevi...
   com.google.android.gms.location.ILoca...
   com.google.android.gms.location.ILoca...
   com.google.android.gms.location.inter...
   com.google.android.gms.location.inter...
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.internal....
+  com.google.android.gms.maps.model.int...
+  com.google.android.gms.maps.model.int...
+  com.google.android.gms.maps.model.int...
+  com.google.android.gms.maps.model.int...
+  com.google.android.gms.maps.model.int...
+  com.google.android.gms.maps_dynamite
   com.google.android.gms.signin
   com.google.android.gms.signin.interna...
   com.google.android.gms.signin.interna...
@@ -461,6 +540,7 @@ Referenced Strings:
   com.google.android.gms.version
   com.google.android.location.internal....
   com.google.android.wearable.app
+  com.google.android.wearable.compat.ex...
   com.google.app.id
   common_google_play_services_api_unava...
   common_google_play_services_invalid_a...
@@ -473,16 +553,24 @@ Referenced Strings:
   common_google_play_services_restricte...
   common_google_play_services_sign_in_f...
   common_google_play_services_sign_in_f...
+  compassEnabled
   composingBase
   composingExtent
+  consumeTapEvents
   content
+  content://com.google.android.gms.chim...
   country
   create
+  customCap
   d
+  d0
+  dalvik.
   dark
+  dash
   data
   decimal
   defaultGoogleSignInAccount
+  defaultMarker
   default_input_method
   destroy_engine_with_activity
   deviceId
@@ -492,8 +580,11 @@ Referenced Strings:
   dispose
   distanceBetween
   distanceFilter
+  dot
+  draggable
   email
   enableSuggestions
+  endCap
   endLatitude
   endLongitude
   error
@@ -503,9 +594,13 @@ Referenced Strings:
   extras
   failing_client_id
   familyName
+  farLeft
+  farRight
   feature
+  fillColor
   find
   flags
+  flat
   flutter
   flutter.baseflow.com/geolocator/events
   flutter.baseflow.com/geolocator/methods
@@ -526,7 +621,12 @@ Referenced Strings:
   flutter_assets
   forceAndroidLocationManager
   fragment
+  fromAsset
+  fromAssetImage
+  fromBytes
+  gap
   gcore_
+  geodesic
   get
   getApplicationDocumentsDirectory
   getApplicationSupportDirectory
@@ -552,6 +652,9 @@ Referenced Strings:
   https://plus.google.com/
   icon
   id
+  indoorEnabled
+  infoWindow
+  initialCameraPosition
   initial_route
   inputAction
   inputType
@@ -563,15 +666,19 @@ Referenced Strings:
   io.flutter.embedding.android.NormalTheme
   io.flutter.embedding.android.SplashSc...
   io.flutter.plugins.GeneratedPluginReg...
+  isGesture
   isoCountryCode
   isolate_snapshot_data
   java.
+  javax.
+  jointType
   key
   keyCode
   keydown
   keymap
   keyup
   label
+  latLngBounds
   latitude
   layout_inflater
   left
@@ -579,6 +686,7 @@ Referenced Strings:
   libflutter.so
   light
   listen
+  loaderVersion
   localeIdentifier
   locality
   location
@@ -594,16 +702,34 @@ Referenced Strings:
   mListener
   mOnKeyListener
   main
+  map
+  mapToolbarEnabled
+  mapType
+  map_state
+  markerId
+  markerIdsToRemove
+  markersToAdd
+  markersToChange
   market://details
   memoryPressure
   message
   metaState
   method
+  minMaxZoomPreference
   mocked
   ms
+  myLocationButtonEnabled
+  myLocationEnabled
   n
   name
+  nearLeft
+  nearRight
+  newCameraPosition
+  newLatLng
+  newLatLngBounds
+  newLatLngZoom
   nodeId
+  northeast
   notification
   notify_manager
   null
@@ -613,9 +739,13 @@ Referenced Strings:
   onMenuKeyEvent
   opaque
   openAppSettings
+  options
   package
   package:
+  packages
+  padding
   params
+  pattern
   pcampaignid
   pendingIntent
   pending_intent
@@ -626,7 +756,18 @@ Referenced Strings:
   placemarkFromCoordinates
   plainCodePoint
   platformBrightness
+  plugins.flutter.io/google_maps
+  plugins.flutter.io/google_maps_
   plugins.flutter.io/path_provider
+  points
+  polygonId
+  polygonIdsToRemove
+  polygonsToAdd
+  polygonsToChange
+  polylineId
+  polylineIdsToRemove
+  polylinesToAdd
+  polylinesToChange
   popRoute
   position
   postalCode
@@ -634,6 +775,7 @@ Referenced Strings:
   primaryColor
   productId
   profile
+  radius
   read
   registerWith
   release
@@ -648,8 +790,14 @@ Referenced Strings:
   resolution
   restricted_profile
   right
+  rotateGesturesEnabled
+  rotation
+  roundCap
+  sClassLoader
   samsung
   scanCode
+  scrollBy
+  scrollGesturesEnabled
   selectionBase
   selectionExtent
   semanticAction
@@ -667,15 +815,21 @@ Referenced Strings:
   showDialog
   showsUserInterface
   signed
+  snippet
   source
+  southwest
   speed
   speed_accuracy
+  squareCap
+  startCap
   startLatitude
   startLongitude
   statusBarColor
   statusBarIconBrightness
   statusCode
   string
+  strokeColor
+  strokeWidth
   subAdministrativeArea
   subLocality
   subThoroughfare
@@ -683,7 +837,9 @@ Referenced Strings:
   systemNavigationBarColor
   systemNavigationBarDividerColor
   systemNavigationBarIconBrightness
+  takeSnapshot
   tap
+  target
   tel:123123
   text
   text/plain
@@ -691,6 +847,8 @@ Referenced Strings:
   textScaleFactor
   texture
   thoroughfare
+  tilt
+  tiltGesturesEnabled
   timeInterval
   timestamp
   title
@@ -698,6 +856,8 @@ Referenced Strings:
   tooltip
   top
   touch
+  trackCameraPosition
+  trafficEnabled
   transition_animation_scale
   transparent
   true
@@ -709,26 +869,26 @@ Referenced Strings:
   version
   viewFocused
   viewType
+  visible
   vm_snapshot_data
   width
   window
   write
   x
+  y
+  zIndex
+  zoom
+  zoomBy
+  zoomControlsEnabled
+  zoomGesturesEnabled
+  zoomIn
+  zoomOut
+  zoomTo
 Marking drawable:googleg_disabled_color_18:2130968595 used because its prefix matches string pool constant google
 Marking drawable:googleg_standard_color_18:2130968596 used because its prefix matches string pool constant google
 Marking integer:google_play_services_version:2131099648 used because its prefix matches string pool constant google
-Marking id:left:2131034175 used because its prefix matches string pool constant left
-Marking id:icon:2131034170 used because its prefix matches string pool constant icon
-Marking id:icon_group:2131034171 used because its prefix matches string pool constant icon
-Marking id:icon_only:2131034172 used because its prefix matches string pool constant icon
-Marking id:right:2131034184 used because its prefix matches string pool constant right
-Marking id:right_icon:2131034185 used because its prefix matches string pool constant right
-Marking id:right_side:2131034186 used because its prefix matches string pool constant right
-Marking id:title:2131034200 used because its prefix matches string pool constant title
-Marking attr:alpha:2130771968 used because its prefix matches string pool constant alpha
-Marking id:text:2131034197 used because its prefix matches string pool constant text
-Marking id:text2:2131034198 used because its prefix matches string pool constant text
-Marking id:top:2131034201 used because its prefix matches string pool constant top
+Marking id:left:2131034176 used because its prefix matches string pool constant left
+Marking id:top:2131034204 used because its prefix matches string pool constant top
 Marking id:accessibility_action_clickable_span:2131034112 used because its prefix matches string pool constant accessibility
 Marking id:accessibility_custom_action_0:2131034113 used because its prefix matches string pool constant accessibility
 Marking id:accessibility_custom_action_1:2131034114 used because its prefix matches string pool constant accessibility
@@ -762,7 +922,7 @@ Marking id:accessibility_custom_action_6:2131034141 used because its prefix matc
 Marking id:accessibility_custom_action_7:2131034142 used because its prefix matches string pool constant accessibility
 Marking id:accessibility_custom_action_8:2131034143 used because its prefix matches string pool constant accessibility
 Marking id:accessibility_custom_action_9:2131034144 used because its prefix matches string pool constant accessibility
-Marking attr:keylines:2130771985 used because its prefix matches string pool constant key
+Marking attr:colorScheme:2130771979 used because its prefix matches string pool constant color
 Marking attr:android_color:-1 used because its prefix matches string pool constant android
 Marking attr:android_alpha:-1 used because its prefix matches string pool constant android
 Marking attr:android_layout_gravity:-1 used because its prefix matches string pool constant android
@@ -784,8 +944,11 @@ Marking attr:android_endX:-1 used because its prefix matches string pool constan
 Marking attr:android_endY:-1 used because its prefix matches string pool constant android
 Marking attr:android_tileMode:-1 used because its prefix matches string pool constant android
 Marking attr:android_offset:-1 used because its prefix matches string pool constant android
-Marking id:light:2131034176 used because its prefix matches string pool constant light
-Marking id:dark:2131034163 used because its prefix matches string pool constant dark
+Marking id:center:2131034157 used because its prefix matches string pool constant center
+Marking id:center_horizontal:2131034158 used because its prefix matches string pool constant center
+Marking id:center_vertical:2131034159 used because its prefix matches string pool constant center
+Marking id:light:2131034177 used because its prefix matches string pool constant light
+Marking attr:mapType:2130772005 used because its prefix matches string pool constant mapType
 Marking color:notification_action_color_filter:2130837515 used because its prefix matches string pool constant notification
 Marking color:notification_icon_bg_color:2130837516 used because its prefix matches string pool constant notification
 Marking dimen:notification_action_icon_size:2130903047 used because its prefix matches string pool constant notification
@@ -814,15 +977,39 @@ Marking drawable:notification_icon_background:2130968605 used because its prefix
 Marking drawable:notification_template_icon_bg:2130968606 used because its prefix matches string pool constant notification
 Marking drawable:notification_template_icon_low_bg:2130968607 used because its prefix matches string pool constant notification
 Marking drawable:notification_tile_bg:2130968608 used because its prefix matches string pool constant notification
-Marking id:notification_background:2131034181 used because its prefix matches string pool constant notification
-Marking id:notification_main_column:2131034182 used because its prefix matches string pool constant notification
-Marking id:notification_main_column_container:2131034183 used because its prefix matches string pool constant notification
+Marking id:notification_background:2131034182 used because its prefix matches string pool constant notification
+Marking id:notification_main_column:2131034183 used because its prefix matches string pool constant notification
+Marking id:notification_main_column_container:2131034184 used because its prefix matches string pool constant notification
 Marking layout:notification_action:2131165185 used because its prefix matches string pool constant notification
 Marking layout:notification_action_tombstone:2131165186 used because its prefix matches string pool constant notification
 Marking layout:notification_template_custom_big:2131165187 used because its prefix matches string pool constant notification
 Marking layout:notification_template_icon_group:2131165188 used because its prefix matches string pool constant notification
 Marking layout:notification_template_part_chronometer:2131165189 used because its prefix matches string pool constant notification
 Marking layout:notification_template_part_time:2131165190 used because its prefix matches string pool constant notification
+Marking id:icon:2131034171 used because its prefix matches string pool constant icon
+Marking id:icon_group:2131034172 used because its prefix matches string pool constant icon
+Marking id:icon_only:2131034173 used because its prefix matches string pool constant icon
+Marking id:right:2131034185 used because its prefix matches string pool constant right
+Marking id:right_icon:2131034186 used because its prefix matches string pool constant right
+Marking id:right_side:2131034187 used because its prefix matches string pool constant right
+Marking id:title:2131034203 used because its prefix matches string pool constant title
+Marking attr:alpha:2130771968 used because its prefix matches string pool constant alpha
+Marking id:text:2131034200 used because its prefix matches string pool constant text
+Marking id:text2:2131034201 used because its prefix matches string pool constant text
+Marking attr:cameraBearing:2130771971 used because its prefix matches string pool constant camera
+Marking attr:cameraMaxZoomPreference:2130771972 used because its prefix matches string pool constant camera
+Marking attr:cameraMinZoomPreference:2130771973 used because its prefix matches string pool constant camera
+Marking attr:cameraTargetLat:2130771974 used because its prefix matches string pool constant camera
+Marking attr:cameraTargetLng:2130771975 used because its prefix matches string pool constant camera
+Marking attr:cameraTilt:2130771976 used because its prefix matches string pool constant camera
+Marking attr:cameraZoom:2130771977 used because its prefix matches string pool constant camera
+Marking attr:mapType:2130772005 used because its prefix matches string pool constant map
+Marking attr:keylines:2130771993 used because its prefix matches string pool constant key
+Marking attr:latLngBoundsNorthEastLatitude:2130771994 used because its prefix matches string pool constant latLngBounds
+Marking attr:latLngBoundsNorthEastLongitude:2130771995 used because its prefix matches string pool constant latLngBounds
+Marking attr:latLngBoundsSouthWestLatitude:2130771996 used because its prefix matches string pool constant latLngBounds
+Marking attr:latLngBoundsSouthWestLongitude:2130771997 used because its prefix matches string pool constant latLngBounds
+Marking id:dark:2131034163 used because its prefix matches string pool constant dark
 Marking id:bottom:2131034156 used because its prefix matches string pool constant bottom
 Resource Reference Graph:
 color:common_google_signin_btn_text_dark:2130837504 => [color:common_google_signin_btn_text_dark_disabled:2130837506, color:common_google_signin_btn_text_dark_pressed:2130837508, color:common_google_signin_btn_text_dark_focused:2130837507, color:common_google_signin_btn_text_dark_default:2130837505]
@@ -863,7 +1050,20 @@ style:Widget_Compat_NotificationActionText:2131361799 => [color:secondary_text_d
 
 The root reachable resources are:
 attr:alpha:2130771968,
-   attr:keylines:2130771985,
+   attr:cameraBearing:2130771971,
+   attr:cameraMaxZoomPreference:2130771972,
+   attr:cameraMinZoomPreference:2130771973,
+   attr:cameraTargetLat:2130771974,
+   attr:cameraTargetLng:2130771975,
+   attr:cameraTilt:2130771976,
+   attr:cameraZoom:2130771977,
+   attr:colorScheme:2130771979,
+   attr:keylines:2130771993,
+   attr:latLngBoundsNorthEastLatitude:2130771994,
+   attr:latLngBoundsNorthEastLongitude:2130771995,
+   attr:latLngBoundsSouthWestLatitude:2130771996,
+   attr:latLngBoundsSouthWestLongitude:2130771997,
+   attr:mapType:2130772005,
    color:notification_action_color_filter:2130837515,
    color:notification_icon_bg_color:2130837516,
    dimen:notification_action_icon_size:2130903047,
@@ -929,26 +1129,29 @@ attr:alpha:2130771968,
    id:accessibility_custom_action_8:2131034143,
    id:accessibility_custom_action_9:2131034144,
    id:bottom:2131034156,
+   id:center:2131034157,
+   id:center_horizontal:2131034158,
+   id:center_vertical:2131034159,
    id:dark:2131034163,
-   id:icon:2131034170,
-   id:icon_group:2131034171,
-   id:icon_only:2131034172,
-   id:left:2131034175,
-   id:light:2131034176,
-   id:notification_background:2131034181,
-   id:notification_main_column:2131034182,
-   id:notification_main_column_container:2131034183,
-   id:right:2131034184,
-   id:right_icon:2131034185,
-   id:right_side:2131034186,
-   id:tag_accessibility_pane_title:2131034192,
-   id:tag_transition_group:2131034194,
-   id:tag_unhandled_key_event_manager:2131034195,
-   id:tag_unhandled_key_listeners:2131034196,
-   id:text:2131034197,
-   id:text2:2131034198,
-   id:title:2131034200,
-   id:top:2131034201,
+   id:icon:2131034171,
+   id:icon_group:2131034172,
+   id:icon_only:2131034173,
+   id:left:2131034176,
+   id:light:2131034177,
+   id:notification_background:2131034182,
+   id:notification_main_column:2131034183,
+   id:notification_main_column_container:2131034184,
+   id:right:2131034185,
+   id:right_icon:2131034186,
+   id:right_side:2131034187,
+   id:tag_accessibility_pane_title:2131034194,
+   id:tag_transition_group:2131034196,
+   id:tag_unhandled_key_event_manager:2131034197,
+   id:tag_unhandled_key_listeners:2131034198,
+   id:text:2131034200,
+   id:text2:2131034201,
+   id:title:2131034203,
+   id:top:2131034204,
    integer:google_play_services_version:2131099648,
    layout:notification_action:2131165185,
    layout:notification_action_tombstone:2131165186,

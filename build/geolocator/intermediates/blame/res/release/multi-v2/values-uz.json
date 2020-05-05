@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/res/merged/release/values-uz/values-uz.xml",
+            "outputFile": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/values-uz/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/geolocator/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/home/joshi_anurag/development/x_navigate/build/geolocator/intermediates/res/merged/release/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/values-uz/values.xml",

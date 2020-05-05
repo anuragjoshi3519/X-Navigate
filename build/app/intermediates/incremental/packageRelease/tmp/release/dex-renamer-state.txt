@@ -1,4 +1,4 @@
-#Fri Apr 24 17:08:39 IST 2020
-base.0=/home/joshi_anurag/Documents/X-Navigate/build/app/intermediates/transforms/r8/release/0/classes.dex
+#Mon May 04 23:09:43 IST 2020
+base.0=/home/joshi_anurag/development/x_navigate/build/app/intermediates/transforms/r8/release/0/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

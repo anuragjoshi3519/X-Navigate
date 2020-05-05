@@ -70,7 +70,7 @@ class LocationTrail extends StatelessWidget {
                         Expanded(
                             flex: 3,
                             child: Text(
-                                '${_locationList[index].position.latitude}',
+                                '${_locationList[index].position.latitude.toStringAsFixed(7)}',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   fontSize: 14,
@@ -79,7 +79,7 @@ class LocationTrail extends StatelessWidget {
                         Expanded(
                             flex: 3,
                             child: Text(
-                                '${_locationList[index].position.longitude}',
+                                '${_locationList[index].position.longitude.toStringAsFixed(7)}',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   fontSize: 14,

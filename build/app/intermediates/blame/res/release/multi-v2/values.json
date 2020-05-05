@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/home/joshi_anurag/development/x_navigate/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/values/values.xml",
@@ -14,12 +14,12 @@
                         "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1867,1966,2154,2255,2436,2557,2732,2876,2935,2993,3068,3474,3887"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,104,352,365",
+                        "startLines": "3,4,5,6,7,8,9,10,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,104,352,424",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "166,256,336,426,516,596,677,757,5458,5563,5744,5869,5976,6156,6279,6395,6665,6853,6958,7139,7264,7439,7587,7650,7712,22426,22741",
-                        "endLines": "3,4,5,6,7,8,9,10,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,104,364,383",
+                        "startOffsets": "166,256,336,426,516,596,677,757,5458,5563,5744,5869,5976,6156,6279,6395,6665,6853,6958,7139,7264,7439,7587,7650,7712,22426,24163",
+                        "endLines": "3,4,5,6,7,8,9,10,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,104,364,442",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
-                        "endOffsets": "251,331,421,511,591,672,752,832,5558,5739,5864,5971,6151,6274,6390,6493,6848,6953,7134,7259,7434,7582,7645,7707,7786,22736,23153"
+                        "endOffsets": "251,331,421,511,591,672,752,832,5558,5739,5864,5971,6151,6274,6390,6493,6848,6953,7134,7259,7434,7582,7645,7707,7786,22736,24575"
                     }
                 },
                 {
@@ -42,6 +42,25 @@
                     }
                 },
                 {
+                    "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "165",
+                        "endLines": "62",
+                        "endColumns": "20",
+                        "endOffsets": "1582"
+                    },
+                    "to": {
+                        "startLines": "365",
+                        "startColumns": "4",
+                        "startOffsets": "22741",
+                        "endLines": "423",
+                        "endColumns": "20",
+                        "endOffsets": "24158"
+                    }
+                },
+                {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -61,7 +80,7 @@
                     }
                 },
                 {
-                    "source": "/home/joshi_anurag/Documents/X-Navigate/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/joshi_anurag/development/x_navigate/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

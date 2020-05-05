@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/google_api_availability/intermediates/res/merged/release/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/joshi_anurag/development/x_navigate/build/google_api_availability/intermediates/res/merged/release/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/values-zh-rCN/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/home/joshi_anurag/Documents/X-Navigate/build/google_api_availability/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/joshi_anurag/development/x_navigate/build/google_api_availability/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/home/joshi_anurag/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/values-zh-rCN/values.xml",
