@@ -1,12 +1,12 @@
 import 'dart:io';
 
 import 'package:csv/csv.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:permission_handler/permission_handler.dart';
 
-import '../widgets/locationTrail.dart';
 import '../models/locationItem.dart';
+import '../widgets/locationTrail.dart';
 import './showOnMap.dart';
 
 class HomePage extends StatefulWidget {
